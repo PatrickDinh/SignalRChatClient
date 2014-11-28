@@ -77,9 +77,9 @@
     <Compile Include="EfRepository.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="IRepository.cs" />
-    <Compile Include="Mapping\ChatRooms\ChatRoomMap.cs" />
-    <Compile Include="Mapping\Messages\MessageMap.cs" />
-    <Compile Include="Mapping\Users\UserMap.cs" />
+    <Compile Include="Mapping\ChatRoomMap.cs" />
+    <Compile Include="Mapping\MessageMap.cs" />
+    <Compile Include="Mapping\UserMap.cs" />
     <Compile Include="Migrations\201411280502383_AddMessage.cs" />
     <Compile Include="Migrations\201411280502383_AddMessage.Designer.cs">
       <DependentUpon>201411280502383_AddMessage.cs</DependentUpon>
@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\SignalRChatClient.Domain\SignalRChatClient.Domain.csproj">
+    <ProjectReference Include="..\SignalRChatClient.Domain\SignalRChatClient.Domain.csproj">
       <Project>{2c4222c0-0853-491d-a0d2-25212fd4da3b}</Project>
       <Name>SignalRChatClient.Domain</Name>
     </ProjectReference>

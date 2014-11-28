@@ -206,7 +206,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SignalRChatClient.Data\SignalRChatClient.Data.csproj">
+    <ProjectReference Include="..\SignalRChatClient.Data\SignalRChatClient.Data.csproj">
       <Project>{89d95519-a1b2-4a8b-9df6-4022f8aa0660}</Project>
       <Name>SignalRChatClient.Data</Name>
     </ProjectReference>

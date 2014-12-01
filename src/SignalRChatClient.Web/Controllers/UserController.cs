@@ -24,11 +24,11 @@ namespace SignalRChatClient.Web.Controllers
                 return BadRequest(ModelState);
             }
 
-            var repo = new EfRepository<User>(new ChatClientDbContext("ChatClientContext"));
-            repo.Insert(new User
-            {
-                NickName = userModel.NickName
-            });
+            //var repo = new EfRepository<User>(new ChatClientDbContext("ChatClientContext"));
+            //repo.Insert(new User
+            //{
+            //    NickName = userModel.NickName
+            //});
 
             return Ok();
         }

@@ -12,12 +12,7 @@ namespace SignalRChatClient.Data
 {
     public class ChatClientDbContext : DbContext, IDbContext
     {
-        public ChatClientDbContext() { }
-
-        public ChatClientDbContext(string nameOrConnectionString)
-            : base(nameOrConnectionString)
-        {
-        }
+        public ChatClientDbContext() : base("ChatClientContext") { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.Web", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.Data", "src\SignalRChatClient.Data\SignalRChatClient.Data.csproj", "{89D95519-A1B2-4A8B-9DF6-4022F8AA0660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIgnalRChatClient.IoC", "src\SIgnalRChatClient.IoC\SIgnalRChatClient.IoC.csproj", "{1B309BD2-B510-44D6-BD54-F6C4FBFECC78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.IoC", "src\SignalRChatClient.IoC\SignalRChatClient.IoC.csproj", "{1B309BD2-B510-44D6-BD54-F6C4FBFECC78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C321027B-313B-4C15-B69D-6A2A0401B17C}"
 	ProjectSection(SolutionItems) = preProject

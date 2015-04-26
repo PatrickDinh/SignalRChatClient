@@ -23,7 +23,7 @@ namespace SignalRChatClient.Data
         /// <param name="context">Object context</param>
         public EfRepository(IDbContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace SignalRChatClient.Data
         /// <returns>Entity</returns>
         public virtual T GetById(object id)
         {
-            return this.Entities.Find(id);
+            return Entities.Find(id);
         }
 
         /// <summary>
@@ -47,9 +47,9 @@ namespace SignalRChatClient.Data
                 if (entity == null)
                     throw new ArgumentNullException("entity");
 
-                this.Entities.Add(entity);
+                Entities.Add(entity);
 
-                this._context.SaveChanges();
+                _context.SaveChanges();
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -75,7 +75,7 @@ namespace SignalRChatClient.Data
                 if (entity == null)
                     throw new ArgumentNullException("entity");
 
-                this._context.SaveChanges();
+                _context.SaveChanges();
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -101,9 +101,9 @@ namespace SignalRChatClient.Data
                 if (entity == null)
                     throw new ArgumentNullException("entity");
 
-                this.Entities.Remove(entity);
+                Entities.Remove(entity);
 
-                this._context.SaveChanges();
+                _context.SaveChanges();
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -125,7 +125,7 @@ namespace SignalRChatClient.Data
         {
             get
             {
-                return this.Entities;
+                return Entities;
             }
         }
 
@@ -136,7 +136,7 @@ namespace SignalRChatClient.Data
         {
             get
             {
-                return this.Entities.AsNoTracking();
+                return Entities.AsNoTracking();
             }
         }
 

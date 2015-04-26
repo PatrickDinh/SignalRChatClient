@@ -9,8 +9,8 @@ namespace SignalRChatClient.Domain
     public class Message : BaseEntity
     {
         public string Content { get; set; }
-        public int UserId { get; set; }
-        public int ChatRoomId { get; set; }
+        public Guid UserId { get; set; }
+        public Guid ChatRoomId { get; set; }
         public User User { get; set; }
         public ChatRoom ChatRoom { get; set; }
     }

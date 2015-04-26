@@ -8,6 +8,7 @@ namespace SignalRChatClient.Domain
 {
     public class User : BaseEntity
     {
+        public string Username { get; set; }
         public string NickName { get; set; }
     }
 }

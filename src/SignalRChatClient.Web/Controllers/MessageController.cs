@@ -19,24 +19,24 @@ namespace SignalRChatClient.Web.Controllers
             _messageRepo = messageRepo;
         }
 
-        [Route("add")]
-        public IHttpActionResult Add(MessageModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //[Route("add")]
+        //public IHttpActionResult Add(MessageModel model)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            _messageRepo.Insert(new Message
-            {
-                UserId = model.UserId,
-                ChatRoomId = model.ChatRoomId,
-                Content = model.Content
-            });
+        //    _messageRepo.Insert(new Message
+        //    {
+        //        UserId = model.UserId,
+        //        ChatRoomId = model.ChatRoomId,
+        //        Content = model.Content
+        //    });
 
-            Microsoft.AspNet.SignalR.GlobalHost.ConnectionManager.GetHubContext<ChatHub>().Clients.All.addNewMessageToPage("admin", model.Content);
+        //    Microsoft.AspNet.SignalR.GlobalHost.ConnectionManager.GetHubContext<ChatHub>().Clients.All.addNewMessageToPage("admin", model.Content);
 
-            return Ok();
-        }
+        //    return Ok();
+        //}
     }
 }

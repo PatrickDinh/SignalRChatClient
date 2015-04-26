@@ -248,9 +248,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SIgnalRChatClient.IoC\SIgnalRChatClient.IoC.csproj">
+    <ProjectReference Include="..\SignalRChatClient.IoC\SignalRChatClient.IoC.csproj">
       <Project>{1b309bd2-b510-44d6-bd54-f6c4fbfecc78}</Project>
-      <Name>SIgnalRChatClient.IoC</Name>
+      <Name>SignalRChatClient.IoC</Name>
     </ProjectReference>
     <ProjectReference Include="..\SignalRChatClient.Data\SignalRChatClient.Data.csproj">
       <Project>{89d95519-a1b2-4a8b-9df6-4022f8aa0660}</Project>

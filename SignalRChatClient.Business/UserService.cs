@@ -8,7 +8,7 @@ using SignalRChatClient.Domain;
 
 namespace SignalRChatClient.Business
 {
-    public class UserService
+    public class UserService : SignalRChatClient.Business.IUserService
     {
         private readonly IRepository<User> _userRepository;
 
@@ -19,6 +19,8 @@ namespace SignalRChatClient.Business
 
         public void CreateUser(User user)
         {
+            user.CreatDateTime = DateTime.UtcNow;
+
             _userRepository.Insert(user);
         }
     }

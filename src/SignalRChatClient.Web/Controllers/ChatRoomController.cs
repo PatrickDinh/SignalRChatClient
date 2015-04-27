@@ -15,21 +15,5 @@ namespace SignalRChatClient.Web.Controllers
     [RoutePrefix("api/chatroom")]
     public class ChatRoomController : ApiController
     {
-        [Route("add")]
-        public IHttpActionResult Add(ChatRoomModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            //var repo = new EfRepository<ChatRoom>(new ChatClientDbContext("ChatClientContext"));
-            //repo.Insert(new ChatRoom
-            //{
-            //    Name = model.Name
-            //});
-
-            return Ok();
-        }
     }
 }

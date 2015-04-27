@@ -248,6 +248,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SignalRChatClient.Business\SignalRChatClient.Business.csproj">
+      <Project>{e94e2f67-4b7b-46b5-8589-3d61059f3b00}</Project>
+      <Name>SignalRChatClient.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SignalRChatClient.IoC\SignalRChatClient.IoC.csproj">
       <Project>{1b309bd2-b510-44d6-bd54-f6c4fbfecc78}</Project>
       <Name>SignalRChatClient.IoC</Name>

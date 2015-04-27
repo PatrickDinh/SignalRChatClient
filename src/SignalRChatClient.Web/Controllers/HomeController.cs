@@ -10,17 +10,5 @@ namespace SignalRChatClient.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IRepository<Message> _messageRepo;
-
-        public HomeController(IRepository<Message> messageRepo)
-        {
-            _messageRepo = messageRepo;
-        }
-
-
-        public ActionResult Index()
-        {
-            return View();
-        }
     }
 }

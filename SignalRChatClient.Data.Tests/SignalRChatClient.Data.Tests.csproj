@@ -64,11 +64,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\SignalRChatClient.Data\SignalRChatClient.Data.csproj">
+    <ProjectReference Include="..\SignalRChatClient.Data\SignalRChatClient.Data.csproj">
       <Project>{89d95519-a1b2-4a8b-9df6-4022f8aa0660}</Project>
       <Name>SignalRChatClient.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\src\SignalRChatClient.Domain\SignalRChatClient.Domain.csproj">
+    <ProjectReference Include="..\SignalRChatClient.Domain\SignalRChatClient.Domain.csproj">
       <Project>{2c4222c0-0853-491d-a0d2-25212fd4da3b}</Project>
       <Name>SignalRChatClient.Domain</Name>
     </ProjectReference>

@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.Domain", "SignalRChatClient.Domain\SignalRChatClient.Domain.csproj", "{2C4222C0-0853-491D-A0D2-25212FD4DA3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.Web", "SignalRChatClient.Web\SignalRChatClient.Web.csproj", "{B2921B65-42D1-4B3E-A5F4-6D8147E3ACEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatClient.Data", "SignalRChatClient.Data\SignalRChatClient.Data.csproj", "{89D95519-A1B2-4A8B-9DF6-4022F8AA0660}"
 EndProject
@@ -36,10 +34,6 @@ Global
 		{2C4222C0-0853-491D-A0D2-25212FD4DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4222C0-0853-491D-A0D2-25212FD4DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4222C0-0853-491D-A0D2-25212FD4DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2921B65-42D1-4B3E-A5F4-6D8147E3ACEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2921B65-42D1-4B3E-A5F4-6D8147E3ACEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2921B65-42D1-4B3E-A5F4-6D8147E3ACEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2921B65-42D1-4B3E-A5F4-6D8147E3ACEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89D95519-A1B2-4A8B-9DF6-4022F8AA0660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89D95519-A1B2-4A8B-9DF6-4022F8AA0660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D95519-A1B2-4A8B-9DF6-4022F8AA0660}.Release|Any CPU.ActiveCfg = Release|Any CPU

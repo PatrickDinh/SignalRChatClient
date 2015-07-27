@@ -11,12 +11,14 @@ namespace SignalRChatClient.App
     {
         static void Main(string[] args)
         {
-            string baseUri = "http://localhost:8080";
+            var url = "http://+:8080";
 
-            Console.WriteLine("Starting web Server...");
-            WebApp.Start<Startup>(baseUri);
-            Console.WriteLine("Server running at {0} - press Enter to quit. ", baseUri);
-            Console.ReadLine();
+            using (WebApp.Start<Startup>(url))
+            {
+                Console.WriteLine("Running on {0}", url);
+                Console.WriteLine("Press enter to exit");
+                Console.ReadLine();
+            }
         }
     }
 }

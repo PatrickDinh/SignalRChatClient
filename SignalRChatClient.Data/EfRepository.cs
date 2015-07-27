@@ -44,6 +44,8 @@ namespace SignalRChatClient.Data
         {
             try
             {
+                entity.CreatDateTime = DateTime.UtcNow;
+
                 if (entity == null)
                     throw new ArgumentNullException("entity");
 

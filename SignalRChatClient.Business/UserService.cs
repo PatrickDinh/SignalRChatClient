@@ -19,8 +19,6 @@ namespace SignalRChatClient.Business
 
         public void CreateUser(User user)
         {
-            user.CreatDateTime = DateTime.UtcNow;
-
             _userRepository.Insert(user);
         }
     }

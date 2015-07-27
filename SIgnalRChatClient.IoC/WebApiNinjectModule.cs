@@ -7,7 +7,7 @@ using Ninject.Modules;
 using SignalRChatClient.Data;
 using Ninject.Web.Common;
 
-namespace SIgnalRChatClient.IoC
+namespace SignalRChatClient.IoC
 {
     public class WebApiNinjectModule : NinjectModule
     {

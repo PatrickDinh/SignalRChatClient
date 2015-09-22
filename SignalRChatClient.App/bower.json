@@ -1,0 +1,20 @@
+{
+  "name": "chirpchirp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/PatrickDinh/SignalRChatClient",
+  "authors": [
+    "Patrick Dinh <d.conghoang@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "bootstrap": "~3.3.5"
+  }
+}

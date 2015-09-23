@@ -1,0 +1,1 @@
+﻿addAngularState("register", "url", "Register");
